@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".rejestracja").hide();
+    $("#rejestr").click(function(){
+      $(".logowanie").hide();
+      $(".rejestracja").show();
+    });
+    $("#log").click(function(){
+        $(".logowanie").show();
+        $(".rejestracja").hide();
+    });
+  });

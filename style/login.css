@@ -1,0 +1,128 @@
+input{
+    font-size: 3vh;
+    padding: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1vh;
+    border-color: #222222;
+    border: 6%;
+    border-radius: 10px;
+    background-color: #616161;
+    color: #b6b6b6;
+}
+button{
+    font-size: 3vh;
+    padding: 3%;
+    margin: 2.5vh;
+    border-color: #868686;
+    border: 10%;
+    border-radius: 10px;
+    background-color: #616161;
+    color: #fafafa;
+    cursor: pointer;
+}
+p{
+    cursor: default;
+}
+.logo{
+    width: 99%;
+    height: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    width: 8vw;
+    height: auto;
+}
+.logo-text{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 5vw;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.blok{
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login, .haslo, .mail{
+    width: 15vw;
+    height: 5vh;
+}
+.dopisek{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 3vh;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    font-style: italic;
+    text-transform: capitalize;
+    vertical-align: text-bottom;
+    margin-bottom:0.012vh;
+    color: #161616;
+}
+.login-button{
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.rejestruj{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1vw;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+.who, .who-radio{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 3vh;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    font-style: italic;
+    text-transform: capitalize;
+    vertical-align: center;
+    margin-bottom:0.012vh;
+    color: #161616;
+}
+.who-radio{
+    width:1vw;
+    height:1vw;
+}
+.who-submit{
+    font-size: 1.5vw;
+}
+.antyrej, .antylog{
+    color:rgb(175, 0, 0);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 0.8vw;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+@media all and (max-width: 1150px){
+    button{
+        font-size: 2vh;
+        padding: 3%;
+        margin: 2vh;
+    } 
+    .login, .haslo, .mail{
+        width: 17vh;
+    }
+    .rejestruj{
+        font-size: 1vh;
+    }
+}

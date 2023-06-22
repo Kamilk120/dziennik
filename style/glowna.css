@@ -1,0 +1,216 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 1.6px;
+    word-spacing: -3px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+a, a:link, a:visited{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+.menu-a, .menu-a:link, .menu-a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    width: 14%;
+    height: 8%;
+    margin: none;
+    margin-left: 3vw;
+    margin-top: none;
+}
+.logo-img{
+    width: 4vw;
+}
+.logo-text{
+    height: 10%;
+    padding: 0px;
+    font-size: 2.2vw;
+}
+.menu{
+    width: 70vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-block{
+    width: auto;
+    height: 100%;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu-block2{
+    text-align: center;
+}
+.menu-imie{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.menu-span{
+    width: auto;
+    font-size: 2vh;
+    padding: 1vw;
+    border-color: #868686;
+    border: 10%;
+    border-radius: 10px;
+    background-color: #616161;
+    color: #d6d6d6;
+    cursor: pointer;
+    text-align: center;
+}
+.menu-span:hover{
+    background-color: #474747;
+}
+.login-ikonka{
+    width: 3vw;
+    height: 3vw;
+}
+.form-oceny{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.przedmioty, .klasa{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.przedmiot, .klasy{
+    display: flex;
+    justify-content: space-evenly;
+}
+.k{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1vw;
+    letter-spacing: 1.6px;
+    word-spacing: -5px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.body-container{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.body-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.plan{
+    background-color: rgba(242, 105, 105, 0.708);
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+}
+.plan-box{
+    background-color: rgba(244, 83, 83, 0.733);
+    width: 17vw;
+    height: auto;
+    border-radius: 5px;
+}
+.uwaga{
+    background-color: rgba(50, 50, 50, 0.472);
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+}
+.uwaga-box{
+    background-color: rgba(68, 68, 68, 0.716);
+    width: 17vw;
+    height: auto;
+    border-radius: 5px;
+}
+.oceny{
+    background-color: rgba(150, 78, 191, 0.667);
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+}
+.oceny-box{
+    background-color: rgba(126, 67, 161, 0.568);
+    width: 17vw;
+    height: auto;
+    border-radius: 5px;
+}
+.sherch{
+    margin: 0px;
+    font-size: 1vw;
+    padding: 0.5vw;
+}
+.cialo{
+    width: 90vw;
+    height: auto;
+    padding: 2vh;
+    border-radius: 15px;
+    color: rgb(211, 211, 211);
+    background-color: rgba(48, 48, 48, 0.692);
+}
+.podcialo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.podpodcialo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    font-size: 1vw;
+    width: auto;
+    text-align: center;
+}
+.b2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.ind{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.industry{
+    height: 3vh;
+    font-size: 1.2vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hir-bro{
+    height: 4vh;
+    width: 80vw;
+    padding: 2vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    margin-right:1vh ;
+    cursor: pointer;
+}
+.edit:hover{
+    color: rgb(238, 238, 238);
+}
